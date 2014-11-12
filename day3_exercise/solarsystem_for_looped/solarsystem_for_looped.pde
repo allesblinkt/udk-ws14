@@ -1,14 +1,10 @@
-
-
-
 void setup() {
   size(600, 600);
   smooth();
 }
 
 
-void draw() {
-  
+void draw() { 
   float earthX = 0.0;
   float earthY = 0.0;
   
@@ -49,14 +45,8 @@ void draw() {
 
     popMatrix();   // ERDE Ende
   }
-
-
-
-
-
-
-
-
+  
+  
   /* Erde */
   pushMatrix();   // MARS Anfang
 

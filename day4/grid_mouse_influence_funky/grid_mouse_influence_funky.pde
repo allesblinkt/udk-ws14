@@ -1,6 +1,3 @@
-/// 17.30 sharp...
-
-
 int gridCols = 20;  // Spalten
 int gridRows = 20;  // Zeilen
 
@@ -31,10 +28,6 @@ void draw() {
       ellipse(x, y, distance, distance);
     }
   }
-
-
-
-
 
 
   noFill();

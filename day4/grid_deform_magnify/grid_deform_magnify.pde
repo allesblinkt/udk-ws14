@@ -1,5 +1,5 @@
-int gridCols = 50;  // Zeilen
-int gridRows = 50;  // Spalten
+int gridCols = 50;  // Spalten
+int gridRows = 50;  // Zeilen
 
 float margin = 40;  // Rand
 float influence = 100;   // Einflussbereich der Maus (Radius)
@@ -16,7 +16,7 @@ void draw() {
   fill(255);
 
 
-  for (int r = 0; r < gridCols; r++) {   // Zeilen
+  for (int r = 0; r < gridRows; r++) {   // Zeilen
     for (int c = 0; c < gridCols; c++) {   // Elemente der Zeile
       float x = map(c, 0, gridCols - 1, margin, width - margin);   // x Position
       float y = map(r, 0, gridRows - 1, margin, height - margin);   // y Position

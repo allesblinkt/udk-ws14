@@ -1,8 +1,5 @@
-/// 17.30 sharp...
-
-
-int gridCols = 40;  // Zeilen
-int gridRows = 30;  // Spalten
+int gridCols = 40;  // Spalten
+int gridRows = 30;  // Zeilen
 
 float margin = 100;  // Rand
 float influence = 100;   // Einflussbereich der Maus (Radius)
@@ -25,11 +22,6 @@ void draw() {
       ellipse(x, y, 5, 5);
     }
   }
-
-
-
-
-
 
   noFill();
   stroke(60);  
