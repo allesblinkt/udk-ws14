@@ -1,6 +1,5 @@
 .DS_Store
 ._*
 
-*.pyc
-
-__pycache__
+__pycache__/
+*.py[cod]
