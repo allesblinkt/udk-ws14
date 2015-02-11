@@ -1,4 +1,4 @@
-const uint8_t pinSensor = A3;
+const uint8_t pinSensor = 0;
 
 
 void setup() {
@@ -8,7 +8,8 @@ void setup() {
 
 void loop() {
   uint16_t sensorValue = analogRead(pinSensor);
+  
   Serial.println(sensorValue);
-  delay(20);
+  delay(5);
 }
 
